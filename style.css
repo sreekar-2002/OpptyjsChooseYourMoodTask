@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 80px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.happy{
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.sad{
+    background-color: blue;
+}
+
+.angry{
+    background-color: red;
+}
+
+.relaxed{
+    background-color: green;
+}
+
+#message{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
